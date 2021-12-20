@@ -1,0 +1,60 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  max-width: 200px;
+  margin: 20px;
+  height: 400px;
+  line-height: 20px;
+  transition: all 600ms;
+  overflow: scroll;
+  scroll-snap-type: none;
+  position: relative;
+  background-color: rgba(52, 58, 64, 0.2);
+  border-radius: 10px;
+
+  color: white;
+}
+.card h3 {
+  font-size: 1.3rem;
+  margin: 10px;
+}
+.card .heroimage {
+  max-width: 100%;
+}
+.card:hover {
+  height: 450px;
+  transform: scale(1.05);
+
+  cursor: pointer;
+}
+
+.card .con {
+  font-size: 0.8rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+  display: block;
+  color: lightgrey;
+}
+.title {
+  font-weight: bold;
+  display: inline;
+  color: lightgrey;
+}
+.card::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 20px;
+}
+.card::-webkit-scrollbar {
+  width: 0;
+  position: relative;
+  top: 0;
+}
+.card::-webkit-scrollbar-button {
+  height: 100px;
+}
