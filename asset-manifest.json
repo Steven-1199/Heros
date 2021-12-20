@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Heros/static/css/main.cfcfec4a.css",
+    "main.js": "/Heros/static/js/main.a7987430.js",
+    "static/js/787.abab2898.chunk.js": "/Heros/static/js/787.abab2898.chunk.js",
+    "index.html": "/Heros/index.html",
+    "main.cfcfec4a.css.map": "/Heros/static/css/main.cfcfec4a.css.map",
+    "main.a7987430.js.map": "/Heros/static/js/main.a7987430.js.map",
+    "787.abab2898.chunk.js.map": "/Heros/static/js/787.abab2898.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cfcfec4a.css",
+    "static/js/main.a7987430.js"
+  ]
+}
